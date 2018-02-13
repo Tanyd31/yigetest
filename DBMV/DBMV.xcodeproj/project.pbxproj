@@ -630,7 +630,8 @@
 			baseConfigurationReference = 91B61B48DD9CCFD33B67D715 /* Pods-DBMV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BRAVESOFT.INC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: BRAVESOFT.INC";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B7TG7AQX97;
 				INFOPLIST_FILE = "DBMV/Supporting Files/Info.plist";
@@ -649,6 +650,7 @@
 			baseConfigurationReference = 04485243D9F014AFFC10B2ED /* Pods-DBMV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BRAVESOFT.INC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B7TG7AQX97;
