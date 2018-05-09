@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct List<Element>: ModelType {
+struct List<Element: Codable>: ModelType {
     let title: String
     let count: Int
     let total: Int
     let start: Int
     let subjects: [Element]
     
-    init(title: String, count: Int, total: Int, start: Int, subjects: [Element]) {
+    private init(title: String, count: Int, total: Int, start: Int, subjects: [Element]) {
         self.title = title
         self.count = count
         self.total = total

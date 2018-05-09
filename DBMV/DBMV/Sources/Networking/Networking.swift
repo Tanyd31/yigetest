@@ -36,9 +36,9 @@ final class Networking<Target: TargetType>: MoyaProvider<Target> {
         UIApplication.shared.isNetworkActivityIndicatorVisible = change == .began
     }
     
-    init() {
-        super.init(manager: _manager, plugins: [networkActivityPlugin])
-    }
+//    init() {
+//        super.init(manager: _manager, plugins: [networkActivityPlugin])
+//    }
     
     func request(_ target: Target,
                  file: StaticString = #file,
